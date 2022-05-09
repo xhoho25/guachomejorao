@@ -238,7 +238,7 @@ def onmessage(update,bot:ObigramClient):
         tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'joCanG3l'
+        tl_admin_user = 'RoxasFromKH'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -556,8 +556,8 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             
-            msg = 'Bienvenido a TgUploader en su versió 1.15.0!\n\n'
-            msg+= 'Para saber como funciona esta versión solo use: /help\n'
+            msg = 'Mi pinga en tu cavidad abdominal 1.15.0!\n\n'
+            msg+= 'Para saber como funciona esta versión solo use: /totogrande\n'
             bot.editMessageText(message,msg)
         elif '/files' == msgText and user_info['cloudtype']=='moodle':
              proxy = ProxyCloud.parse(user_info['proxy'])
@@ -636,7 +636,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5184877013:AAH_Dj6CexahQDeoPnWfw3j6bfQM3QvxXJc'
+    bot_token = '5358157265:AAF78ZmpngP0bjREafGvaf-YTEtSt7tXq6k'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
